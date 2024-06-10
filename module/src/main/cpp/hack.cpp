@@ -28,6 +28,7 @@
 #include "Misc.h"
 #include "Rect.h"
 #include "hack.h"
+#include "hook.h"
 
 int                  glHeight, glWidth;
 bool                 setupimg;
@@ -63,6 +64,8 @@ HOOKAF(void, Input, void *thiz, void *ex_ab, void *ex_ac) {
     ImGui_ImplAndroid_HandleInputEvent((AInputEvent *)thiz);
     return;
 }
+
+#include "menu.h"
 
 void SetupImgui() {
     IMGUI_CHECKVERSION();
