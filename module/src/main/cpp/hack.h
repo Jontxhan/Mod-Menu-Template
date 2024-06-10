@@ -3,6 +3,9 @@
 #include <jni.h>
 #include <android/log.h>
 
+#define GamePackageName "com.unity.test"
+
+
 static int   enable_hack;
 int.         isGame(JNIEnv *env, jstring appDataDir);
 static char  *game_data_dir = NULL;
