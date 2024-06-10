@@ -16,8 +16,8 @@
 #include <sys/system_properties.h>
 #include "imgui.h"
 #include "imgui_internal.h"
-#include "backends/imgui_impl_opengl3.h"
-#include "backends/imgui_impl_android.h"
+#include "imgui_impl_opengl3.h"
+#include "imgui_impl_android.h"
 #include "Dobby/dobby.h"
 #include "KittyMemory/KittyMemory.h"
 #include "KittyMemory/MemoryPatch.h"
